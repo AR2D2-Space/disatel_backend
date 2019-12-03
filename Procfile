@@ -1,0 +1,1 @@
+web: gunicorn disatel.wsgi --log-file -
