@@ -13,7 +13,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i4p7n^e+_^@6uoltc(=uo33)y^1$cs9q-57b5#hbdsuzpw_#*i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['https://disatel.herokuapp.com']
 
@@ -25,7 +25,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 
 CORS_ORIGIN_WHITELIST = (
-    'https://disatel.herokuapp.com'
+    'https://disatel.herokuapp.com',
+    'http://localhost:8000'
 )
 
 CORS_ALLOW_METHODS = (
