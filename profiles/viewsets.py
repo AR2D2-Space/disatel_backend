@@ -11,8 +11,7 @@ class ProfileViewSet(ModelViewSet):
     serializer_class = ProfileSerializer
     filter_backends = [SearchFilter]
     search_fields = ['first_name', 'last_name', 'email', 'username', 'dpi']
-
-    permission_classes = [AllowAny]
+    permission_classes = []
 
     def get_queryset(self):
         user = self.request.user
