@@ -15,7 +15,7 @@ SECRET_KEY = 'i4p7n^e+_^@6uoltc(=uo33)y^1$cs9q-57b5#hbdsuzpw_#*i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://disatel.herokuapp.com']
 
 
 # Application definition
